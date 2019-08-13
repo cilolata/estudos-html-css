@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Museu Nacional</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+
+    <!--inicio header-->
+    <header>
+        <div id="logo">
+            <h1><a href="">Museu Nacional</a></h1>
+        </div>
+
+        <!--inicio nav-->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Exposições</a></li>
+                <li><a href="#">Pesquisa</a></li>
+                <li><a href="#">Acervo</a></li>
+                <li><a href="#">Fotos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <!--fim nav-->
+
+    </header>
+    <!--/fim header-->
+
+    <!--inicio container-->
+    <div id="container">
+        <!--começo main-->
+        <main id="principal">
+            <!--começo section conteudo-->
+            <section id="foto">
+                <div>
+                    <img src="img/museu.png" alt="foto-museu">
+                </div>
+            </section>
+            <!--fim section conteudo-->
+
+            <!--começo section video-map-expo-->
+            <section id="video-map-expo">
+
+                <!--começo article vídeo-->
+                <article class="video">
+                    <h3>Vídeo: conheça o museu</h3>
+                    <iframe width="330" height="200" src="https://www.youtube.com/embed/RGUYb-hivrc" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </article>
+                <!--fim article vídeo-->
+
+                <!--começo article mapa-->
+                <article class="mapa">
+                    <h3>Encontre o Museu</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29401.33402064024!2d-43.215530602848716!3d-22.907219509403728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu+Nacional+-+UFRJ!5e0!3m2!1spt-BR!2sbr!4v1560891233628!5m2!1spt-BR!2sbr"
+                        width="330" height="200" frameborder="0" style="border:0" allowfullscreen>
+                    </iframe>
+                </article>
+            </section>
+            <!--fim article mapa-->
+
+            <!--começo article exposições-->
+            <section class="info">
+                <article class="exposicoes">
+                    <h3>Exposições</h3>
+                    <ul>
+                        <li>
+                            <a href="">Antropologia Biológica</a>
+                        </li>
+                        <li>
+                            <a href="">Arqueologia</a>
+                        </li>
+                        <li>
+                            <a href="">Etnologia</a>
+                        </li>
+                        <li>
+                            <a href="">Geologia</a>
+                        </li>
+                        <li>
+                            <a href="">Paleontologia</a>
+                        </li>
+                        <li>
+                            <a href="">Zoologia</a>
+                        </li>
+                    </ul>
+                </article>
+                <!--fim article exposições-->
+
+                <!--começo texto-->
+                <article class="texto">
+                    <h3>200 anos de história</h3>
+                    <p>
+                        O Museu Nacional é uma instituição autônoma, integrante do Fórum de Ciência e Cultura da
+                        Universidade Federal do Rio de Janeiro, vinculada ao Ministério da Educação que completou 200
+                        anos em 2018.
+                    </p>
+                    <p>
+                        Criado por D. João VI, em 06 de junho de 1818 e inicialmente, sediado no Campo de
+                        Sant'Ana,serviu para atender aos interesses de promoção do progresso cultural e econômico do
+                        país.
+                    </p>
+                    <p>
+                        Como museu universitário, tem perfil acadêmico e científico. Suas exposições resultam da
+                        história da instituição e da excelência de suas atividades de pesquisa e ensino, cumprindo a
+                        finalidade precípua de produção e disseminação do conhecimento nas áreas de ciências
+                        naturais e
+                        antropológicas.
+                    </p>
+                    <a href="#">Leia mais</a>   
+                </article> 
+                <!--fim texto-->
+
+            </section>
+            <!--fim section video-map-expo-->
+
+        </main>
+        <!--/fim main-->
+
+        <!--começo aside-->
+        <aside>
+            <article id="depoimento">
+                <img src="img/depoimento.png" alt="depoimento">
+            </article>
+
+            <!--form visita-->
+            <section id="visita">
+                <h4>Agende uma visita</h4>
+                <form action="">
+                    <fieldset>
+                        <label for="data">Data</label>
+                        <input class="campo" type="date" name="" id="data">
+                        <label class="label2" for="qtd">N° de Pessoas</label>
+                        <input class="campo" type="number" name="" id="qtd">
+                        <input class="botao" type="submit" name="" id="enviar" value="verificar disponibilidade">
+                    </fieldset>
+            </section>
+            <!-- fim form visita-->
+
+            <!--inicio galeria fotos-->
+            <section id="galeria">
+                <h4>Galeria de fotos</h4>
+                <div class="container-galeria">
+                    <a href="">
+                        <img src="img/imagem1.jpg" alt=" imagens-museu">
+                    </a>
+                    <a href="">
+                        <img src="img/imagem2.jpg" alt=" imagens-museu">
+                    </a>
+                    <a href="">
+                        <img src="img/imagem3.jpg" alt=" imagens-museu">
+                    </a>
+                    <a href="">
+                        <img src="img/imagem4.jpg" alt=" imagens-museu">
+                    </a>
+                    <a href="">
+                        <img src="img/imagem5.jpg" alt=" imagens-museu">
+                    </a>
+                    <a href="">
+                        <img src="img/imagem6.jpg" alt=" imagens-museu">
+                    </a>
+                </div>
+            </section>
+            <!--fim galeria fotos-->
+
+        </aside>
+        <!--/fim aside-->   
+    </div>
+    <!--/fim container -->
+
+    <!--começo footer-->
+    <footer>
+              <p class="links">
+                  <a href="#">Home</a>
+                  <a href="#">Exposições</a>
+                  <a href="#">Pesquisa</a>
+                  <a href="#">Acervo</a>
+                  <a href="#">Vídeos</a>                 
+                  <a href="#">Fotos</a>                  
+                  <a href="#">Contato</a>
+              </p> 
+              <p>
+                  2019 <a href="">Museu Nacional</a>- Todos os direitos reservados
+              </p> 
+    </footer>
+    <!--fim footer-->
+
+</body>
+
+</html>
